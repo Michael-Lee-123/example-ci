@@ -1,4 +1,3 @@
-
 from functions import add, subtract, multiply
 from functions import convert_fahrenheit_to_celsius as f2c
 import pytest
@@ -8,7 +7,7 @@ def test_add():
     assert add('space', 'ship') == 'spaceship'
 
 def test_mutiply():
-    assert mutiply(2, 3) == 6
+    assert multiply(2, 3) == 6
 
 # uncomment the following test in step 5
 #def test_subtract():
